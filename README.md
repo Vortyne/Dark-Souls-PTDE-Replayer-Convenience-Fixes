@@ -1,6 +1,6 @@
-DS1 Replayer's Convenience Fixes (RCF)
+Dark Souls PTDE Replayer's Convenience Fixes (RCF)
 
-This has been tested with Prepare to Die Edition but not Remastered. Although I imagine it works on both.
+This has been tested with Prepare to Die Edition only. Since this tweaks aspects of the game such as weapon stats a bit, don't recommend applying to Remastered.
 
 How to apply these mods:
 
@@ -8,33 +8,31 @@ How to apply these mods:
 
 2. After unpacking, you must patch the game to actually use these unpacked files. If you're using UXM Selective Unpack, click "Patch" from the program to do this.
 
+IF YOU WANT ALL MODS AT ONCE (simplest method)
+
+3. Paste the contents of "All Changes At Once" folder into your game's DATA folder replace all files that already exist. Any mod that changes the game's parameter file that you may have been using will be overwritten. Boot up the game and you should have all these changes active. 
+
+IF YOU ONLY WANT SPECIFIC CHANGES
+
+For the great hollow collision fix, just paste it into your data folder. No parameter changes are needed. For all others, you need to modify your parameter file with new parameters stored in the .csv files enclosed.
+
 3. Get software that can edit the parameters in the game files. DSMapStudio should work perfectly for this. Download it and run DSMapStudio. https://github.com/soulsmods/DSMapStudio/releases/latest
 
 4. Create a new project (file -> new project) doesn't matter what you call it, just select the correct DS1 .exe file that you use to run the game.
 
-5. Select "Param Editor" tab. Then, depending on which mod you want to install, click one the following categories that should show up on the leftmost column:
-(Less Grindy Offline Covenant Items or No Painful Equipment Drop Rates)
-click "ItemLotParam"
-(Less useless shields)
-click "EquipParamWeapon"
-(No Killing friendly NPCs for Gear)
-click "ShopLineupParam"
-(Less Useless Weapons stamina changes)
-click "BehaviorParam_PC"
-(Less Useless Rings)
-click "SpEffectParam"
-
-For the other .csv files you will have to do this for multiple sets of parameters to get all the changes, and you can see which from the filenames.
+5. Select "Param Editor" tab. Then, depending on which mod .csv file you want to install, click one the following categories that should show up on the leftmost column. Which category to use is indicated in the .csv's filename.
 
 6. Now that you've selected the category of parameter to edit, click Edit -> Import CSV -> From file... -> All Fields and select the .csv file you want to apply. It should apply the changes to the game's parameters automatically.
 
-7. Go back to step 5 if you want to apply other .csv files. You can apply all of them one after the other if you want, or any combination. When you're done, click "File -> Save All"
+For some of the mods, you will need to import multiple .csv files for different categories. To get the mod fully working you must import all the files of that name to their respective categories.
+
+7. Go back to step 5 if you want to apply other .csv files. You can apply all of them one after the other if you want, or any combination of mods. When you're done, click "File -> Save All"
 
 8. Now go to the directory of the project you created at step 4, and get your newly generated project params file. Should be named "GameParam.parambnd"
 
 9. Go to your DS1 DATA directory, and find the original game's GameParam.parambnd file. Should be unpacked to "DATA/param/GameParam" directory. Rename the file to something like GameParam.parambnd.bak to back up the original version of your game's params so you can undo any modifications later.
 
-10. Paste in the newly modified "GameParam.parambnd" that you made with DSMapStudio.
+10. Paste in the newly modified "GameParam.parambnd" that you made with DSMapStudio to your DATA/param/GameParam folder for Dark Souls PTDE's installation directory. You can back up the old file by renaming it if you want.
 
 11. Have fun!
 
@@ -103,51 +101,75 @@ Target Shield
 - 90% physical
 - Base stability raised to 52
 - mid tier deflection
+
 Effigy Shield
 - 100% physical
 - Base stability raised to 58 
 - mid tier deflection
+
 Crystal Ring Shield
 - 100% physical
 - Stability raised to 69
 - mid tier deflection
 - 135 base magic damage
 - B int scaling
+
 Caduceus Round Shield
 - 95% physical
 - Base stability raised to 56
 - mid tier deflection
+
 Gargoyle's Shield
 - 99% physical (can't be 100% to stay lore accurate)
 - base stability raised to 58
 - heavy tier deflection
+
 Large Leather Shield
 - 100% physical
+
 Pierce Shield
 - 100% physical
 - stability raised to 68
 - mid tier deflection
+
 Spiked Shield
 - 100% physical
 - stability raised to 68
 - mid tier deflection
+
 Sanctus
 - 98% physical
 - base stability raised to 59
 - heavy tier deflection
+
 Bonewheel shield
 - 95% physical
 - stability raised to 78
+
 Eagle Shield
 - 98% physical
+
 Cleansing Greatshield
 - 95% physical
+
 Sunlight shield
 - heavy tier deflection
+
 Crystal shield
 - heavy tier deflection
+
 Giant shield
-- base stability raised to 73
+- base stability raised to 73 (really heavy, should have stability to match)
+
+Knight shield
+- 65 magic defense, 65 lightning defense, 65 fire defense, 60 base stability (due to higher weight, it has better stats than lighter shields now)
+
+Bloodshield
+- 50 magic defense, 62 base stability (obtained late in the game, may as well be a bit stronger overall)
+
+Caduceus Kite Shield
+- 70 magic defense, 50 fire defense, 30 thunder defense (differentiate from tower kite shield a bit)
+
 Dark Hand -> B strength and dex scaling added, guard stability increased to 60, deflection increased to 50 (medium shield level deflection), phys guard reduction increased to 97 (now it's a pretty good shield)
 
 "Base stability" means upgrading will increase the stability higher than the base. Some shields do not increase stability with upgrades.
@@ -190,7 +212,7 @@ Golem Axe -> buffable
 Great Lord Greatsword -> buffable
 Smough's Hammer -> buffable
 Darkmoon Bow -> added int scaling (same scaling as faith, allows mages in general to get use out of this bow, not just faith builds)
-
+Darksword -> base damage increased by 3 in every infusion on every damage type. More worth using despite its 6 weight and difficulty of obtaining.
 
 Stamina cost reduction for specific bad weapons (BehaviorParam_PC)
 
@@ -206,6 +228,9 @@ Guard piercing for specific bad weapons (AtkParam_Pc)
 
 All whips -> attacks ignore shields
 Mail breaker -> heavy attacks go through shields
+
+Improve Channeler's Staff buff (Bullet, SpEffectParam)
+- Buff time increased to 60 seconds, also buffs the user. This is the same length of time as the buff the actual channeler gets. The buff should also apply to magic and miracles as well now.
 
 Some weapons just have many issues or are greatly outclassed, especially some that appear only late in the game. These changes improve them a bit.
 
@@ -227,7 +252,7 @@ calamity ring -> added effect: all player animations are 25% faster. You still t
 
 A couple of rings have negligible effects that are almost useless or have no effect at all, luckily there aren't that many of them, but these changes make them a bit more useful.
 
-===== More useful helmet effects =====
+===== More useful Armor effects =====
 
 Ornstein's helm -> +10% lightning damage on all sources
 Brass helm -> +10% magic damage on all sources
@@ -248,12 +273,13 @@ Pharis's hat -> hawk ring effect (does not stack with ring)
 Dark mask -> ring of the evil eye effect (does not stack with ring)
 Snickering top hat -> hornet ring effect (does not stack with ring)
 Artorias's Helm -> Leo Ring effect (does not stack with ring)
+Boots of the Explorer -> Fall Control effect
 
 ===== Add unused content + Check Covenant Rank Menu Option =====
 
 adds in a bunch of unused content to the game, and when you interact with a covenant NPC, you can select a new option to check your current rank / how many offerings you've made. Some of the unused content had no names/text so I had to invent some of them. Should be somewhat lore-friendly though.
 
-Mage smith armor -> sold by vinheim in new londo ruins
+Mage smith armor -> sold by vinheim in new londo ruins, gauntlets give the same effect as the East Wood Grain Ring
 Elite cleric armor -> sold by rhea after being saved
 Undead king armor (jar-eel's armor) -> found in lost izalith (chest of soul of a great hero)
 Barbarian armor -> found in blighttown's poison swamp where you get the server
@@ -273,3 +299,36 @@ emit force
 -> 12 casts
 fire surge
 -> increase damage per tick from 55 to 80
+
+===== Fix Armor that Looks Like it should Have some Poise =====
+
+increase poise on armor pieces that look like they should have some poise but don't
+- painting guardian legs (10 poise)
+- crimson mask (6 poise)
+- brigand armor (8 poise)
+- brigand gauntlets (8 poise)
+- big hat (4 poise)
+- mask of velka (4 poise)
+- crown of the dark sun (6 poise)
+- crown of the great lord (8 poise)
+- robe of the great lord (20 poise)
+- bracelet of the great lord (6 poise)
+- anklet of the great lord (12 poise)
+- shadow gauntlets (3 poise)
+- shadow leggings (5 poise)
+- hollow thief's leather armor (6 poise)
+- black leather armor (6 poise)
+- snickering top hat (4 poise)
+- chester's long coat (4 poise)
+- wanderer coat (7 poise)
+- wanderer manchette (3 poise)
+- wanderer boots (6 poise)
+- leather armor (6 poise)
+- hard leather armor (8 poise)
+- hard leather boots (8 poise)
+- hard leather gauntlets (3 poise)
+- witch hat (4 poise)
+- xanthous crown (12 poise)
+- xanthous gloves (5 poise)
+- chester's trousers (6 poise)
+
