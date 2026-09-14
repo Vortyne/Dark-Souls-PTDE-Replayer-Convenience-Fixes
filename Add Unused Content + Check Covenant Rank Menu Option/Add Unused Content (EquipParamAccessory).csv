@@ -1,0 +1,4 @@
+ID,Name,refId,sfxVariationId,weight,behaviorId,basicPrice,sellValue,sortId,qwcId,equipModelId,iconId,shopLv,trophySGradeId,trophySeqId,equipModelCategory,equipModelGender,accessoryCategory,refCategory,spEffectCategory,pad,vagrantItemLotId,vagrantBonusEneDropItemLotId,vagrantItemEneDropItemLotId,isDeposit,isEquipOutBrake,disableMultiDropShare,pad1,
+140,Charred Estus Ring,2341,-1,0,0,0,1000,42,0,0,4012,-1,-1,-1,0,0,0,2,0,0,101400,101410,101420,1,0,0,[0|0|0]
+134,Ring of Blind Ghosts,3181,-1,0,0,0,1000,43,0,0,4034,-1,-1,-1,0,0,0,2,0,0,101400,101410,101420,1,0,0,[0|0|0]
+133,Ring of Condemnation,1801,-1,0,0,0,1000,44,0,0,4033,-1,-1,-1,0,0,0,2,0,0,101400,101410,101420,1,0,0,[0|0|0]

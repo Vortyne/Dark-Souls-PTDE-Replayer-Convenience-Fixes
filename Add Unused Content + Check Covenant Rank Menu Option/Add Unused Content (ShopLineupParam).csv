@@ -1,0 +1,12 @@
+ID,Name,equipId,value,mtrlId,eventFlag,qwcId,sellQuantity,shopType,equipType,pad_0
+1422,[Andre] Fine Zweihander,9004000,12000,-1,-1,-1,-1,0,0,[0|0|0|0|0|0|0|0]
+2103,[Rickert of Vinheim] Mage Smith Helm,370000,1000,-1,-1,-1,-1,0,1,[0|0|0|0|0|0|0|0]
+2104,[Rickert of Vinheim] Mage Smith Coat,371000,2000,-1,-1,-1,-1,0,1,[0|0|0|0|0|0|0|0]
+2105,[Rickert of Vinheim] Mage Smith Gauntlets,372000,15000,-1,-1,-1,-1,0,1,[0|0|0|0|0|0|0|0]
+2106,[Rickert of Vinheim] Mage Smith Boots,373000,1500,-1,-1,-1,-1,0,1,[0|0|0|0|0|0|0|0]
+4210,[Rhea of Thorolund] Elite Cleric Helm,650000,2000,-1,-1,-1,-1,0,1,[0|0|0|0|0|0|0|0]
+4211,[Rhea of Thorolund] Elite Cleric Armor,651000,4000,-1,-1,-1,-1,0,1,[0|0|0|0|0|0|0|0]
+4212,[Rhea of Thorolund] Elite Cleric Gauntlets,652000,2000,-1,-1,-1,-1,0,1,[0|0|0|0|0|0|0|0]
+4213,[Rhea of Thorolund] Elite Cleric Leggings,653000,3000,-1,-1,-1,-1,0,1,[0|0|0|0|0|0|0|0]
+4409,[Oswald of Carim] Ring of Condemnation,133,40000,-1,11607090,-1,1,0,2,[0|0|0|0|0|0|0|0]
+6101,[Darkstalker Kaathe] Darkwraith Dirk,9006000,5000,-1,-1,-1,-1,0,0,[0|0|0|0|0|0|0|0]
