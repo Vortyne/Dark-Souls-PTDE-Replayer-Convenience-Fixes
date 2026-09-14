@@ -1,4 +1,4 @@
-Dark Souls PTDE Replayer's Convenience Fixes (RCF)
+# Dark Souls PTDE Replayer's Convenience Fixes (DS1RCF)
 
 This has been tested with Prepare to Die Edition only. Since this tweaks aspects of the game such as weapon stats a bit, don't recommend applying to Remastered.
 
@@ -36,19 +36,22 @@ For some of the mods, you will need to import multiple .csv files for different 
 
 11. Have fun!
 
-???? What do they change? ????
+## ???? What do they change? ????
 
-==== Less Grindy Offline Covenant Items =====
+## Fix Great Hollow Invisible Wall Issue
+
+Fixes the root that blocks you from easily going back up the great hollow, by moving a model in the map of the central roots up a small amount. This makes it so you can easily walk past the "lip" that caused the issue in the original game.
+
+## Less Grindy Offline Covenant Items
 
 - Drakes in the valley of drakes will have an increased 50% chance to drop 3 dragon scales
 - Balder knights in the undead burg have a newly added 8% chance to drop 1 sunlight medal
 - Painting Guardians have a newly added 15% chance to drop 2 souvenirs of reprisal
 - Basilisks (depths or great hollow) have an increased 25% chance to drop 3 eyes of death
-- The Fog Ring can't be obtained without doing darkroot garden battles, so it now also is found alongside the Soul of a Brave Warrior in Darkroot Garden.
 
-In case you play offline, and want to be able to get covenant items around when you have access to the covenant.
+Since Prepare to Die Edition has no online support, getting these covenant items is a massive pain without some sort of tweak like these ones.
 
-===== No Killing friendly NPCs for Gear =====
+## No Killing friendly NPCs for Gear
 
 - Andre will sell his hammer
 - Vamos will sell his helmet and hammer
@@ -60,7 +63,7 @@ In case you play offline, and want to be able to get covenant items around when 
 
 In case you want to do a run with such equipment without murdering your friends in cold blood.
 
-===== No Painful Equipment drop rates =====
+## No Painful Equipment drop rates
 
 Basically all <5% armor or weapon drop rates were raised to 5%, unless you could get them in some other easier way (shops/items in the overworld), or they were not particularly uncommon despite a low drop rate (broken straight sword, etc.)
 
@@ -93,9 +96,9 @@ Basically all <5% armor or weapon drop rates were raised to 5%, unless you could
 
 Just to make things less painful if you want to do a run with the rarer pieces of equipment or collect/upgrade everything.
 
-===== Less useless shields =====
+## Less useless shields 
 
-Increased the physical resistance and stability of a bunch of shields:
+Increased the stats of a bunch of shields:
 
 Target Shield
 - 90% physical
@@ -176,7 +179,7 @@ Dark Hand -> B strength and dex scaling added, guard stability increased to 60, 
 
 Mostly just for some fun with playing with shields for fashion. 
 
-===== Less Useless Weapons =====
+## Less Useless Weapons
 
 Weapon scaling/damage/weight/stat req modifications (EquipParamWeapon)
 
@@ -275,11 +278,11 @@ Improve Channeler's Staff buff (Bullet, SpEffectParam)
 
 Some weapons just have many issues or are greatly outclassed, especially some that appear only late in the game. These changes improve them a bit.
 
-===== Less Useless Rings =====
+## Less Useless Rings 
 
 ring of the evil eye -> regenerates 50 hp per kill instead of 30
 
-east wood grain ring -> changed effect: regens 3 weapon durability for your right hand weapon per second when equipped (useful if you're using weapons with durability attacks), does not repair crystal weapons
+east wood grain ring -> changed effect: regens 3 weapon durability for your equipment per second when equipped (useful if you're using weapons with durability attacks), does not repair crystal weapons.
 
 ring of the sun princess -> added effect: generates a sunlight maggot light effect (allows for earlier less painful exploration of tomb of the giants)
 
@@ -299,12 +302,12 @@ covenant of artorias -> added effect: you regain 40 extra stamina per second whe
 
 orange charred ring -> added effect: +20% to pyromancy damage, reduces fire damage taken by 50% (flame kick effect removed to add these new ones)
 
-calamity ring -> added effect: all player animations are 25% faster. You still take double damage though. Since it's essentially a ng+ ring, you can play the game in a slightly different way once you have it.
+calamity ring -> added effect: all player animations are 25% faster. You still take double damage though. Late game ring that can change things up quite a bit for fun.
 
 
 A couple of rings have negligible effects that are almost useless or have no effect at all, luckily there aren't that many of them, but these changes make them a bit more useful.
 
-===== More useful Armor effects =====
+## More useful Armor effects
 
 Ornstein's helm -> +10% lightning damage on all sources
 
@@ -347,7 +350,7 @@ Artorias's Helm -> Leo Ring effect (does not stack with ring)
 Boots of the Explorer -> Fall Control effect
 
 
-===== Add unused content + Check Covenant Rank Menu Option =====
+## Add unused content + Check Covenant Rank Menu Option
 
 adds in a bunch of unused content to the game, and when you interact with a covenant NPC, you can select a new option to check your current rank / how many offerings you've made. Some of the unused content had no names/text so I had to invent some of them. Should be somewhat lore-friendly though.
 
@@ -371,7 +374,7 @@ Ring of The Blind Ghosts -> fall control effect -> found in the Depths (replaces
 
 Charred Estus Ring (Ring of displacement) -> 20% boost to healing, -10% fire res -> Found with the dragon scale in the log in ash lake
 
-===== Less Useless Spells =====
+## Less Useless Spells
 
 gravelord spells -> 120 casts, damage increased
 
@@ -379,7 +382,7 @@ emit force -> 12 casts
 
 fire surge -> increase damage per tick from 55 to 80
 
-===== Fix Armor that Looks Like it should Have some Poise =====
+## Fix Armor that Looks Like it should Have some Poise 
 
 increase poise on armor pieces that look like they should have some poise but don't
 - painting guardian legs (10 poise)
