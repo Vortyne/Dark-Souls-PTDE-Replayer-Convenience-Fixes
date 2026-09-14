@@ -416,7 +416,7 @@ increase poise on armor pieces that look like they should have some poise but do
 
 ## Recommended mods to install alongside these ones
 
-- DSFix (60fps on DS PTDE)
+- DSFix (60fps on DS PTDE) (https://www.nexusmods.com/darksouls/mods/19?tab=description)
 - Dark Souls Overhaul (Fixes ladders, lava eyesore button toggle, fixes bonfire softlock, fixes quantity selectors for covenant offerings/soul usages, and more...) (https://www.nexusmods.com/darksouls/mods/1474)
 - Better Crystal Effect FPS (Seath - White Dragon Breath - Crystal Golems) (https://www.nexusmods.com/darksouls/mods/1633)
 - Dark Souls Input Customizer (If you are using a keyboard, or want to customize inputs like adding a dedicated kick input button) (https://www.nexusmods.com/darksouls/mods/1273)
