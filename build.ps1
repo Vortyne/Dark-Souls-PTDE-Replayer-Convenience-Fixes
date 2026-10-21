@@ -5,12 +5,12 @@
 .DESCRIPTION
     Builds "Param Patcher\src", then lays out the release in dist\ and zips it:
 
-        dist\DS1RCF-<version>\
+        dist\Dark-Souls-PTDE-Replayer-Convenience-Fixes.v<version>\
             Param Patcher\ParamPatcher.exe
             Param Patcher\mods\...        (from mods\; the exe reads mods from next to itself)
             Manual Install\...
             README.md                     (with every mod's list of changes written out)
-        dist\DS1RCF-<version>.zip
+        dist\Dark-Souls-PTDE-Replayer-Convenience-Fixes.v<version>.zip
 
     It also refreshes the change lists in the repo's README.md (see update-readme.ps1).
 
@@ -33,7 +33,8 @@ if (-not $Version) {
     $Version = git -C $root describe --tags --always --dirty 2>$null
     if (-not $Version) { $Version = Get-Date -Format 'yyyy-MM-dd' }
 }
-$name = "DS1RCF-$Version"
+# Release name: "Dark-Souls-PTDE-Replayer-Convenience-Fixes.v1.1" (a leading "v" in the version, e.g. from a git tag, isn't doubled).
+$name = "Dark-Souls-PTDE-Replayer-Convenience-Fixes.v" + ($Version -replace '^[vV]', '')
 $dist = Join-Path $root 'dist'
 $out = Join-Path $dist $name
 $buildDir = Join-Path $root 'Param Patcher\build'
@@ -57,7 +58,7 @@ Copy-Item (Join-Path $root 'Manual Install') (Join-Path $out 'Manual Install') -
 $zip = "$out.zip"
 if (Test-Path $zip) { Remove-Item $zip }
 Add-Type -AssemblyName System.IO.Compression.FileSystem
-# includeBaseDirectory: unzipping gives a single "DS1RCF-<version>" folder.
+# includeBaseDirectory: unzipping gives a single "Dark-Souls-PTDE-Replayer-Convenience-Fixes.v<version>" folder.
 [IO.Compression.ZipFile]::CreateFromDirectory($out, $zip, [IO.Compression.CompressionLevel]::Optimal, $true)
 
 $size = '{0:N1} MB' -f ((Get-Item $zip).Length / 1MB)

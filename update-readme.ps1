@@ -18,7 +18,7 @@
 
 .EXAMPLE
     .\update-readme.ps1
-    .\update-readme.ps1 -Plain -Output dist\DS1RCF-1.2\README.md
+    .\update-readme.ps1 -Plain -Output dist\Dark-Souls-PTDE-Replayer-Convenience-Fixes.v1.2\README.md
 #>
 param([switch]$Plain, [string]$Output)
 

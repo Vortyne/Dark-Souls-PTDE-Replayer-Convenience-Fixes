@@ -39,7 +39,7 @@ Building (for the repository): the repo contains only sources:
 - "Manual Install": the files players copy into the game themselves.
 - "Param Patcher/src": the patcher's C# source. "Param Patcher/data": the unmodified params of both games, built into the exe so it can compare against them.
 
-Run `.\build.ps1` in PowerShell (needs the .NET SDK: https://dotnet.microsoft.com/download). It builds ParamPatcher.exe and puts the release together in "dist": a "DS1RCF-<version>" folder laid out as above, and the same as a zip to upload. Add `-Version 1.2` to name the version; otherwise it uses `git describe`. While developing you can also run the exe straight from "Param Patcher/build": it finds the repo's "mods" folder by itself.
+Run `.\build.ps1` in PowerShell (needs the .NET SDK: https://dotnet.microsoft.com/download). It builds ParamPatcher.exe and puts the release together in "dist": a "Dark-Souls-PTDE-Replayer-Convenience-Fixes.v<version>" folder laid out as above, and the same as a zip to upload. Add `-Version 1.2` to name the version; otherwise it uses `git describe`. While developing you can also run the exe straight from "Param Patcher/build": it finds the repo's "mods" folder by itself.
 
 The change lists below are generated from each mod's CHANGES.md: edit those files, not this README. `build.ps1` refreshes them here (as collapsible sections) and writes them out in full into the README in the zip; run `.\update-readme.ps1` to refresh this README without building.
 
