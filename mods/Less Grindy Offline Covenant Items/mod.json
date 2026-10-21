@@ -1,0 +1,12 @@
+{
+  "name": "Less Grindy Offline Covenant Items",
+  "author": "Vortyne",
+  "description": "Raises or adds drops for covenant items: dragon scales, sunlight medals, souvenirs of reprisal and eyes of death, since they are a pain to farm offline.",
+  "requireAll": true,
+  "patches": [
+    {
+      "file": "ItemLotParam.csv",
+      "param": "ItemLotParam"
+    }
+  ]
+}

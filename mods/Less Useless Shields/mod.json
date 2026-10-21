@@ -1,0 +1,12 @@
+{
+  "name": "Less Useless Shields",
+  "author": "Vortyne",
+  "description": "Better physical block, stability and deflection for many weak shields.",
+  "requireAll": true,
+  "patches": [
+    {
+      "file": "EquipParamWeapon.csv",
+      "param": "EquipParamWeapon"
+    }
+  ]
+}

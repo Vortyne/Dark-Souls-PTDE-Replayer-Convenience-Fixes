@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>ParamPatcher</AssemblyName>
+    <RootNamespace>ParamPatcher</RootNamespace>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+    <DebugType>none</DebugType>
+    <Product>DS1 PTDE Param Patcher</Product>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.3" PrivateAssets="all" />
+    <!-- JavaScriptSerializer, for reading mod.json (part of .NET Framework) -->
+    <Reference Include="System.Web.Extensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <!-- Vanilla params and layouts are embedded so the exe is self-contained. -->
+    <EmbeddedResource Include="..\data\ptde\GameParam.parambnd" LogicalName="ptde/GameParam.parambnd" />
+    <EmbeddedResource Include="..\data\ptde\paramdef.paramdefbnd" LogicalName="ptde/paramdef.paramdefbnd" />
+    <EmbeddedResource Include="..\data\dsr\GameParam.parambnd.dcx" LogicalName="dsr/GameParam.parambnd.dcx" />
+    <EmbeddedResource Include="..\data\dsr\paramdef.paramdefbnd.dcx" LogicalName="dsr/paramdef.paramdefbnd.dcx" />
+  </ItemGroup>
+</Project>

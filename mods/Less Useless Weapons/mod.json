@@ -1,0 +1,28 @@
+{
+  "name": "Less Useless Weapons",
+  "author": "Vortyne",
+  "description": "Better scaling, damage, weight, stamina cost and guard piercing for weapons that are outclassed or arrive late, and a longer, stronger Channeler's Staff buff.",
+  "requireAll": true,
+  "patches": [
+    {
+      "file": "AtkParam_PC.csv",
+      "param": "AtkParam_PC"
+    },
+    {
+      "file": "BehaviorParam_PC.csv",
+      "param": "BehaviorParam_PC"
+    },
+    {
+      "file": "Bullet.csv",
+      "param": "Bullet"
+    },
+    {
+      "file": "EquipParamWeapon.csv",
+      "param": "EquipParamWeapon"
+    },
+    {
+      "file": "SpEffectParam.csv",
+      "param": "SpEffectParam"
+    }
+  ]
+}

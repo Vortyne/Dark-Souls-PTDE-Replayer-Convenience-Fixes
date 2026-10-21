@@ -1,0 +1,171 @@
+ID,Name,weight,weaponWeightRate,correctStrength,correctAgility,correctMagic,correctFaith,physGuardCutRate,attackBasePhysics,attackBaseMagic,attackBaseFire,attackBaseThunder,saWeaponDamage,staminaGuardDef,throwAtkRate,correctType,properStrength,properAgility,guardBaseRepel,isEnhance
+102000,Ghost Blade,,,,110,,,,,,,,,,,,,,,1
+208000,Silv. Knight Str. Sword,,,,,,,,,,,,,,,,,17,,
+209000,Astora's Straight Sword,,,,,,100,,,,,,,,,,,,,
+210000,Darksword,,,,,,,,85,,,,,,,,,,,
+210100,Darksword [Crystal],,,,,,,,85,,,,,,,,,,,
+210200,Darksword [Lightning],,,,,,,,85,,,85,,,,,,,,
+210300,Darksword [Raw],,,,,,,,97,,,,,,,,,,,
+210400,Darksword [Magic],,,,,,,,65,70,,,,,,,,,,
+210500,Darksword [Enchanted],,,,,,,,65,69,,,,,,,,,,
+210600,Darksword [Divine],,,,,,,,58,71,,,,,,,,,,
+210700,Darksword [Occult],,,,,,,,59,65,,,,,,,,,,
+210800,Darksword [Fire],,,,,,,,85,,85,,,,,,,,,
+210900,Darksword [Chaos],,,,,,,,75,,85,,,,,,,,,
+302000,Man-serpent Greatsword,7.5,,,,,,,,,,,,,,,,,,
+302100,Man-serpent Greatsword [Crystal],7.5,,,,,,,,,,,,,,,,,,
+302200,Man-serpent Greatsword [Lightning],7.5,,,,,,,,,,,,,,,,,,
+302300,Man-serpent Greatsword [Raw],7.5,,,,,,,,,,,,,,,,,,
+302400,Man-serpent Greatsword [Magic],7.5,,,,,,,,,,,,,,,,,,
+302500,Man-serpent Greatsword [Enchanted],7.5,,,,,,,,,,,,,,,,,,
+302600,Man-serpent Greatsword [Divine],7.5,,,,,,,,,,,,,,,,,,
+302700,Man-serpent Greatsword [Occult],7.5,,,,,,,,,,,,,,,,,,
+302800,Man-serpent Greatsword [Fire],7.5,,,,,,,,,,,,,,,,,,
+302900,Man-serpent Greatsword [Chaos],7.5,,,,,,,,,,,,,,,,,,
+306000,Stone Greatsword,12,0.5,100,,100,,,124,124,,,,,,1,18,,,
+314000,Great Lord Greatsword [Dagger],,,,,,,,,,,,,,,,,,,1
+314100,Great Lord Greatsword [Parrying Dagger],,,,,,,,,,,,,,,,,,,1
+314200,Great Lord Greatsword [Bandit's Knife],,,,,,,,,,,,,,,,,,,1
+314300,Great Lord Greatsword [Shortsword],,,,,,,,,,,,,,,,,,,1
+314400,Great Lord Greatsword [Longsword],,,,,,,,,,,,,,,,,,,1
+314500,Great Lord Greatsword [Broadsword],,,,,,,,,,,,,,,,,,,1
+314600,Great Lord Greatsword [Balder Side Sword],,,,,,,,,,,,,,,,,,,1
+314700,Great Lord Greatsword [Sunlight Straight Sword],,,,,,,,,,,,,,,,,,,1
+314800,Great Lord Greatsword [Barbed Straight Sword],,,,,,,,,,,,,,,,,,,1
+314900,Great Lord Greatsword [Astora's Straight Sword],,,,,,,,,,,,,,,,,,,1
+315000,Great Lord Greatsword [Darksword],,,,,,,,,,,,,,,,,,,1
+315100,Great Lord Greatsword [Bastard Sword],,,,,,,,,,,,,,,,,,,1
+315200,Great Lord Greatsword [Claymore],,,,,,,,,,,,,,,,,,,1
+315300,Great Lord Greatsword [Man-serpent Greatsword],,,,,,,,,,,,,,,,,,,1
+315400,Great Lord Greatsword [Flamberge],,,,,,,,,,,,,,,,,,,1
+315500,Great Lord Greatsword [Zweihander],,,,,,,,,,,,,,,,,,,1
+315600,Great Lord Greatsword [Greatsword],,,,,,,,,,,,,,,,,,,1
+315700,Great Lord Greatsword [Demon Great Machete],,,,,,,,,,,,,,,,,,,1
+354000,Dragon Greatsword,,,,,,,,450,,,,,,,,,,,
+403000,Jagged Ghost Blade,,,,88,,,,,,,,,,,,,,,1
+450000,Server,,,,100,,,,,,,,,,,,,,,
+450100,Server [Crystal],,,,100,,,,,,,,,,,,,,,
+450300,Server [Raw],,,,75,,,,,,,,,,,,,,,
+450400,Server [Magic],,,,41,,,,,,,,,,,,,,,
+450500,Server [Enchanted],,,,35,,,,,,,,,,,,,,,
+450600,Server [Divine],,,,48,,,,,,,,,,,,,,,
+450700,Server [Occult],,,,46,,,,,,,,,,,,,,,
+600000,Mail Breaker,,,,,,,,66,,,,,,100,,,,,
+600100,Mail Breaker [Crystal],,,,,,,,66,,,,,,100,,,,,
+600200,Mail Breaker [Lightning],,,,,,,,66,,,,,,100,,,,,
+600300,Mail Breaker [Raw],,,,,,,,80,,,,,,100,,,,,
+600400,Mail Breaker [Magic],,,,,,,,57,,,,,,100,,,,,
+600500,Mail Breaker [Enchanted],,,,,,,,57,,,,,,100,,,,,
+600600,Mail Breaker [Divine],,,,,,,,54,,,,,,100,,,,,
+600700,Mail Breaker [Occult],,,,,,,,55,,,,,,100,,,,,
+600800,Mail Breaker [Fire],,,,,,,,66,,,,,,100,,,,,
+600900,Mail Breaker [Chaos],,,,,,,,60,,,,,,100,,,,,
+702000,Crescent Axe,,0,,,,110,,,,,,,,,,,,,
+703000,Butcher Knife,6,0,,,,,,,,,,,,,,16,,,
+703100,Butcher Knife [Crystal],6,0,,,,,,,,,,,,,,16,,,
+703200,Butcher Knife [Lightning],6,0,,,,,,,,,,,,,,16,,,
+703300,Butcher Knife [Raw],6,0,,,,,,,,,,,,,,16,,,
+703400,Butcher Knife [Magic],6,0,,,,,,,,,,,,,,16,,,
+703500,Butcher Knife [Enchanted],6,0,,,,,,,,,,,,,,16,,,
+703600,Butcher Knife [Divine],6,0,,,,,,,,,,,,,,16,,,
+703700,Butcher Knife [Occult],6,0,,,,,,,,,,,,,,16,,,
+703800,Butcher Knife [Fire],6,0,,,,,,,,,,,,,,16,,,
+703900,Butcher Knife [Chaos],6,0,,,,,,,,,,,,,,16,,,
+704000,Golem Axe [Hand Axe],,,,,,,,,,,,,,,,,,,1
+704100,Golem Axe [Battle Axe],,,,,,,,,,,,,,,,,,,1
+704200,Golem Axe [Crescent Axe],,,,,,,,,,,,,,,,,,,1
+704300,Golem Axe [Butcher Knife],,,,,,,,,,,,,,,,,,,1
+704400,Golem Axe [Gargoyle Tail Axe],,,,,,,,,,,,,,,,,,,1
+704500,Golem Axe [Greataxe,,,,,,,,,,,,,,,,,,,1
+704600,Golem Axe [Demon's Greataxe,,,,,,,,,,,,,,,,,,,1
+752000,Dragon King Greataxe,,,,,,,,420,,,,,,,,,,,
+802000,Morning Star,,,,75,,,,,,,,,,,,,,,
+802100,Morning Star [Crystal],,,,75,,,,,,,,,,,,,,,
+802300,Morning Star [Raw],,,,56,,,,100,,,,,,,,,,,
+802400,Morning Star [Magic],,,,21,,,,70,,,,,,,,,,,
+802500,Morning Star [Enchanted],,,,14,,,,70,,,,,,,,,,,
+802600,Morning Star [Divine],,,,29,,,,67,,,,,,,,,,,
+802700,Morning Star [Occult],,,,27,,,,66,,,,,,,,,,,
+802900,Morning Star [Chaos],,,,,,,,75,,,,,,,,,,,
+803000,Warpick,,,75,75,,,,,,,,,,,,,,,
+803100,Warpick [Crystal],,,75,75,,,,,,,,,,,,,,,
+803300,Warpick [Raw],,,60,50,,,,,,,,,,,,,,,
+803400,Warpick [Magic],,,,,,,,75,,,,,,,,,,,
+803500,Warpick [Enchanted],,,,,,,,75,,,,,,,,,,,
+803600,Warpick [Divine],,,,,,,,75,,,,,,,,,,,
+803700,Warpick [Occult],,,,,,,,70,,,,,,,,,,,
+803900,Warpick [Chaos],,,,,,,,81,,,,,,,,,,,
+810000,Blacksmith Hammer,,,125,,,,,,,,,,,,,,,,
+810100,Blacksmith Hammer [Crystal],,,125,,,,,,,,,,,,,,,,
+810300,Blacksmith Hammer [Raw],,,81,,,,,,,,,,,,,,,,
+810400,Blacksmith Hammer [Magic],,,71,,,,,75,,,,,,,,,,,
+810500,Blacksmith Hammer [Enchanted],,,45,,,,,75,,,,,,,,,,,
+810600,Blacksmith Hammer [Divine],,,79,,,,,69,,,,,,,,,,,
+810700,Blacksmith Hammer [Occult],,,77,,,,,70,,,,,,,,,,,
+810800,Blacksmith Hammer [Fire],,,,,,,,97,,,,,,,,,,,
+810900,Blacksmith Hammer [Chaos],,,,,,,,86,,,,,,,,,,,
+812000,Hammer of Vamos,,,,,100,100,,150,,120,,,,,1,,,,
+852000,Demon's Great Hammer,,,,,,,,155,,,,,,,,,,,
+852100,Demon's Great Hammer [Crystal],,,,,,,,155,,,,,,,,,,,
+852200,Demon's Great Hammer [Lightning],,,,,,,,155,,,,,,,,,,,
+852300,Demon's Great Hammer [Raw],,,,,,,,175,,,,,,,,,,,
+852400,Demon's Great Hammer [Magic],,,,,,,,130,,,,,,,,,,,
+852500,Demon's Great Hammer [Enchanted],,,,,,,,130,,,,,,,,,,,
+852600,Demon's Great Hammer [Divine],,,,,,,,120,,,,,,,,,,,
+852700,Demon's Great Hammer [Occult],,,,,,,,120,,,,,,,,,,,
+852800,Demon's Great Hammer [Fire],,,,,,,,140,,,,,,,,,,,
+852900,Demon's Great Hammer [Chaos],,,,,,,,140,,,,,,,,,,,
+856000,Smough's Hammer [Club],,,,,,,,400,,,,,,,,,,,1
+856100,Smough's Hammer [Mace],,,,,,,,400,,,,,,,,,,,1
+856200,Smough's Hammer [Morning Star],,,,,,,,400,,,,,,,,,,,1
+856300,Smough's Hammer [Warpick],,,,,,,,400,,,,,,,,,,,1
+856400,Smough's Hammer [Pickaxe],,,,,,,,400,,,,,,,,,,,1
+856500,Smough's Hammer [Reinforced Club],,,,,,,,400,,,,,,,,,,,1
+856600,Smough's Hammer [Blacksmith Hammer],,,,,,,,400,,,,,,,,,,,1
+856700,Smough's Hammer [Blacksmith Giant Hammer,,,,,,,,400,,,,,,,,,,,1
+856800,Smough's Hammer [Hammer of Vamos],,,,,,,,400,,,,,,,,,,,1
+856900,Smough's Hammer [Great Club],,,,,,,,400,,,,,,,,,,,1
+857000,Smough's Hammer [Demon's Great Hammer],,,,,,,,400,,,,,,,,,,,1
+857100,Smough's Hammer [Large Club],,,,,,,,400,,,,,,,,,,,1
+903000,Dragon Bone Fist [Caestus],4,,,,,,,156,,,,40,,,,,,,
+903100,Dragon Bone Fist [Claw],4,,,,,,,156,,,,40,,,,,,,
+904000,Dark Hand,,,80,80,,,97,,,,,,60,,,,,50,
+1006000,Silver Knight Spear,,,,,,,,,,,,,,,,,17,,1
+1050000,Pike,6.5,,,,,,,,,,,,,,,16,,,
+1050100,Pike [Crystal],6.5,,,,,,,,,,,,,,,16,,,
+1050200,Pike [Lightning],6.5,,,,,,,,,,,,,,,16,,,
+1050300,Pike [Raw],6.5,,,,,,,,,,,,,,,16,,,
+1050400,Pike [Magic],6.5,,,,,,,,,,,,,,,16,,,
+1050500,Pike [Enchanted],6.5,,,,,,,,,,,,,,,16,,,
+1050600,Pike [Divine],6.5,,,,,,,,,,,,,,,16,,,
+1050700,Pike [Occult],6.5,,,,,,,,,,,,,,,16,,,
+1050800,Pike [Fire],6.5,,,,,,,,,,,,,,,16,,,
+1050900,Pike [Chaos],6.5,,,,,,,,,,,,,,,16,,,
+1101000,Giant's Halberd,12,0,,,,85,,180,,,,35,,,1,24,,,
+1102000,Titanite Catch Pole,,,,,85,,,,,,,,,,,,,,
+1106000,Lucerne,,,,,,,,118,,,,,,,,,,,
+1106100,Lucerne [Crystal],,,,,,,,118,,,,,,,,,,,
+1106200,Lucerne [Lightning],,,,,,,,118,,,,,,,,,,,
+1106300,Lucerne [Raw],,,,,,,,130,,,,,,,,,,,
+1106400,Lucerne [Magic],,,,,,,,90,,,,,,,,,,,
+1106500,Lucerne [Enchanted],,,,,,,,90,,,,,,,,,,,
+1106600,Lucerne [Divine],,,,,,,,80,,,,,,,,,,,
+1106700,Lucerne [Occult],,,,,,,,82,,,,,,,,,,,
+1106800,Lucerne [Fire],,,,,,,,118,,,,,,,,,,,
+1106900,Lucerne [Chaos],,,,,,,,100,,,,,,,,,,,
+1205000,Darkmoon Bow [Short Bow],,,,,50,,,,,,,,,,,,,,
+1205100,Darkmoon Bow [Composite Bow],,,,,50,,,,,,,,,,,,,,
+1205200,Darkmoon Bow [Longbow],,,,,50,,,,,,,,,,,,,,
+1205300,Darkmoon Bow [Black Bow of Pharis],,,,,50,,,,,,,,,,,,,,
+1253000,Sniper Crossbow,5.5,,,,,,,75,,,,,,,,,,,
+9015000,Stone Greataxe,,,,,,,,250,,,,,,,,,,,
+9016000,Four-pronged Plow,2.5,,,,,,,,,,,,,,,,,,
+9016100,Four-pronged Plow [Crystal],2.5,,,,,,,,,,,,,,,,,,
+9016200,Four-pronged Plow [Lightning],2.5,,,,,,,,,,,,,,,,,,
+9016300,Four-pronged Plow [Raw],2.5,,,,,,,,,,,,,,,,,,
+9016400,Four-pronged Plow [Magic],2.5,,,,,,,,,,,,,,,,,,
+9016500,Four-pronged Plow [Enchanted],2.5,,,,,,,,,,,,,,,,,,
+9016600,Four-pronged Plow [Divine],2.5,,,,,,,,,,,,,,,,,,
+9016700,Four-pronged Plow [Occult],2.5,,,,,,,,,,,,,,,,,,
+9016800,Four-pronged Plow [Fire],2.5,,,,,,,,,,,,,,,,,,
+9016900,Four-pronged Plow [Chaos],2.5,,,,,,,,,,,,,,,,,,

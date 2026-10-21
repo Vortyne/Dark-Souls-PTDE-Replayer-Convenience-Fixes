@@ -1,0 +1,6 @@
+{
+  "name": "Fix Great Hollow Invisible Wall Issue",
+  "author": "Vortyne",
+  "description": "Moves a root in the Great Hollow up a little, so you can walk back up past the \"lip\" that blocked you in the original game. Works on Prepare to Die Edition and Remastered.",
+  "installFiles": "game files"
+}

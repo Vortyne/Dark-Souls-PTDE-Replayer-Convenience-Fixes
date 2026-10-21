@@ -1,0 +1,12 @@
+{
+  "name": "Less Useless Rings",
+  "author": "Vortyne",
+  "description": "Improves rings with weak or no effects (evil eye, east wood grain, sun princess, tiny being, blue tearstone, dusk crown, calamity ring and more).",
+  "requireAll": true,
+  "patches": [
+    {
+      "file": "SpEffectParam.csv",
+      "param": "SpEffectParam"
+    }
+  ]
+}

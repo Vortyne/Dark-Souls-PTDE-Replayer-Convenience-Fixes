@@ -1,0 +1,17 @@
+ID,Name,life,hitRadius,dmgHitRecordLifeTime,numShoot
+6400,Gravelord Sword Dance,,0.5,1.5,2
+6401,Gravelord Sword Dance - Level 1,,1,0.5,
+6402,Gravelord Sword Dance - Level 2,,1,0.5,
+6403,Gravelord Sword Dance - Level 3,,1,0.5,
+6410,Gravelord Sword Dance - HitBullet,,1,0.5,
+6411,Gravelord Sword Dance - Level 1 - HitBullet,,1,0.5,
+6412,Gravelord Sword Dance - Level 2 - HitBullet,,1,0.5,
+6413,Gravelord Sword Dance - Level 3 - HitBullet,,1,0.5,
+6500,Gravelord Greatsword Dance,,0.5,0.5,2
+6501,Gravelord Greatsword Dance - Level 1,,1,0.5,
+6502,Gravelord Greatsword Dance - Level 2,,1,0.5,
+6503,Gravelord Greatsword Dance - Level 3,,1,0.5,
+6510,Gravelord Greatsword Dance - HitBullet,1,,0.5,
+6511,Gravelord Greatsword Dance - Level 1 - HitBullet,1,,0.5,
+6512,Gravelord Greatsword Dance - Level 2 - HitBullet,1,,0.5,
+6513,Gravelord Greatsword Dance - Level 3 - HitBullet,1,,0.5,

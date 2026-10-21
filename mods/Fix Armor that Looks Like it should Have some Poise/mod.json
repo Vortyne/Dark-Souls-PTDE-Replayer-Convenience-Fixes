@@ -1,0 +1,12 @@
+{
+  "name": "Fix Armor that Looks Like it should Have some Poise",
+  "author": "Vortyne",
+  "description": "Gives poise to armor pieces that look like they should have some (brigand, great lord, wanderer, leather armor and more).",
+  "requireAll": true,
+  "patches": [
+    {
+      "file": "EquipParamProtector.csv",
+      "param": "EquipParamProtector"
+    }
+  ]
+}

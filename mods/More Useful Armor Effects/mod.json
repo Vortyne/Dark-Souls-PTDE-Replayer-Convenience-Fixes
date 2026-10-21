@@ -1,0 +1,16 @@
+{
+  "name": "More Useful Armor Effects",
+  "author": "Vortyne",
+  "description": "Gives special effects to many helmets and armor pieces (damage boosts, ring effects, mask effects, fall control).",
+  "requireAll": true,
+  "patches": [
+    {
+      "file": "EquipParamProtector.csv",
+      "param": "EquipParamProtector"
+    },
+    {
+      "file": "SpEffectParam.csv",
+      "param": "SpEffectParam"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+# Build output: the patcher exe and release zips are made by build.ps1, not committed.
+/dist/
+/Param Patcher/build/
+/Param Patcher/src/bin/
+/Param Patcher/src/obj/
+*.exe
+# Left behind by update-readme.ps1 when the README was open elsewhere.
+*.replace-bak
+*.tmp

@@ -1,0 +1,68 @@
+ID,Name,stamina
+104204100,[87] Great dragon bone _ one-handed 1,65
+104204110,[87] large dragon bone _ one-handed turtle 2,65
+103601000,[67] Pike _ 1H Light #1,25
+103601010,[67] Pike _ 1H Light #2,25
+103601020,[67] Pike _ 1H Light #3,25
+103601030,[67] Pike _ 1H Jump Attack,65
+103601050,[67] Pike _ 1H Fall Landing,65
+103601100,[67] Pike _ one-handed 1,65
+103601110,[67] Pike _ 1H Heavy #2,62
+103601200,[67] Pike _ 2H Light #1,35
+103601210,[67] Pike _ 2H Light #2,35
+103601220,[67] Pike _ 2H Light #3,35
+103601230,[67] Pike _ 2H Jump Attack,75
+103601250,[67] Pike _ 2H Fall Landing,75
+103601300,[67] Pike _ 2H Heavy #1,75
+103601310,[67] Pike _ 2H Heavy #2,75
+103601400,[67] Pike _ Left Hand Attack,25
+103601460,[67] Pike _ guard medium attack,40
+103601521,[67] Pike _ 1H Roll Attack (stop),30
+103601531,[67] Pike _ 2H Roll Attack (stop),35
+103607000,[134] Garden fork _ 1H Light #1,15
+103607010,[134] Garden fork _ 1H Light #2,15
+103607020,[134] Garden fork _ 1H Light #3,15
+103607030,[134] Garden fork _ 1H Jump Attack,40
+103607050,[134] Garden fork _ 1H Fall Landing,40
+103607100,[134] Garden fork _ 1H Heavy #1,30
+103607110,[134] Garden fork _ 1H Heavy #2,30
+103607200,[134] Garden fork _ 2H Light #1,20
+103607210,[134] Garden fork _ 2H Light #2,20
+103607220,[134] Garden fork _ Both hands usually 3,20
+103607230,[134] Garden fork _ 2H Jump Attack,55
+103607250,[134] Garden fork _ 2H Fall Landing,55
+103607300,[134] Garden fork _ hands holding,50
+103607301,[134] Garden fork _ Two-handed Tame _ Empty swing,5
+103607400,[134] Garden fork _ Left Hand Attack,10
+103607460,[134] Garden Fork _ Guard Medium Attack,24
+103607520,[134] Garden fork _ 1H Roll Attack,15
+103607530,[134] Garden fork _ hands dash,20
+103804030,[111] dress _ 1H Jump Attack,65
+103804050,[111] dress _ 1H Fall Landing,40
+103804100,[111] Dress _ 1H Heavy #1,65
+103804110,[111] Dress _ 1H Heavy #2,65
+103804200,[111] dress _ 2H Light #1,35
+103804210,[111] dress _ 2H Light #2,35
+103804220,[111] dress _ 2H Light #3,35
+103804230,[111] dress _ 2H Jump Attack,75
+103804250,[111] dress _ 2H Fall Landing,55
+103804300,[111] dress _ 2H Heavy #1,75
+103804310,[111] dress _ 2H Heavy #2,75
+103804530,[111] dress _ 2H Roll Attack,40
+104300000,whip _ 1H Light #1,5
+104300010,whip_1H Light #2,5
+104300020,whip_1H Light #3,5
+104300030,whip_1H Jump Attack,25
+104300050,whip_1H Fall Landing,25
+104300100,whip_one-handed 1,15
+104300110,whip_one-handed turtle 2,20
+104300200,Whip _ 2H Light #1,10
+104300210,whip _ 2H Light #2,10
+104300220,Whip _ 2H Light #3,10
+104300230,whip_2H Jump Attack,30
+104300250,whip_2H Fall Landing,30
+104300300,Whip_2H Heavy #1,20
+104300310,whip _ 2H Heavy #2,20
+104300400,whip_Left Hand Attack,5
+104300520,whip_1H Roll Attack,10
+104300530,whip _ 2H Roll Attack,15

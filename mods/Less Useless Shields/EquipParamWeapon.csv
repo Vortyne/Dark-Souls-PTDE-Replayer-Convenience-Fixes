@@ -1,0 +1,131 @@
+ID,Name,correctStrength,correctAgility,correctMagic,physGuardCutRate,magGuardCutRate,fireGuardCutRate,thunGuardCutRate,attackBaseMagic,staminaGuardDef,guardBaseRepel
+904000,Dark Hand,80,80,,97,,,,,60,50
+1410000,Caduceus Round Shield,,,,95,,,,,56,50
+1410100,Caduceus Round Shield [Crystal],,,,95,,,,,56,50
+1410200,Caduceus Round Shield [Lightning],,,,95,,,,,56,50
+1410400,Caduceus Round Shield [Magic],,,,95,,,,,56,50
+1410600,Caduceus Round Shield [Divine],,,,95,,,,,56,50
+1410800,Caduceus Round Shield [Fire],,,,95,,,,,56,50
+1411000,Crystal Ring Shield [East-West Shield],,,85,100,,,,135,69,50
+1411100,Crystal Ring Shield [Wooden Shield],,,85,100,,,,135,69,50
+1411200,Crystal Ring Shield [Plank Shield],,,85,100,,,,135,69,50
+1411300,Crystal Ring Shield [Large Leather Shield],,,85,100,,,,135,69,50
+1411400,Crystal Ring Shield [Small Leather Shield],,,85,100,,,,135,69,50
+1411500,Crystal Ring Shield [Leather Shield,,,85,100,,,,135,69,50
+1411600,Crystal Ring Shield [Target Shield],,,85,100,,,,135,69,50
+1411700,Crystal Ring Shield [Buckler],,,85,100,,,,135,69,50
+1411800,Crystal Ring Shield [Cracked Round Shield],,,85,100,,,,135,69,50
+1411900,Crystal Ring Shield [Caduceus Round Shield],,,85,100,,,,135,69,50
+1412000,Crystal Ring Shield [Heater Shield],,,85,100,,,,135,69,50
+1412100,Crystal Ring Shield [Knight Shield],,,85,100,,,,135,69,50
+1412200,Crystal Ring Shield [Tower Kite Shield],,,85,100,,,,135,69,50
+1412300,Crystal Ring Shield [Grass Crest Shield],,,85,100,,,,135,69,50
+1412400,Crystal Ring Shield [Hollow Soldier Shield],,,85,100,,,,135,69,50
+1412500,Crystal Ring Shield [Balder Shield],,,85,100,,,,135,69,50
+1412600,Crystal Ring Shield [Warrior's Round Shield],,,85,100,,,,135,69,50
+1412700,Crystal Ring Shield [Iron Round Shield],,,85,100,,,,135,69,50
+1412800,Crystal Ring Shield [Spider Shield],,,85,100,,,,135,69,50
+1412900,Crystal Ring Shield [Spiked Shield],,,85,100,,,,135,69,50
+1413000,Crystal Ring Shield [Pierce Shield],,,85,100,,,,135,69,50
+1413100,Crystal Ring Shield [Sunlight Shield],,,85,100,,,,135,69,50
+1413200,Crystal Ring Shield [Red and White Round Shield],,,85,100,,,,135,69,50
+1413300,Crystal Ring Shield [Caduceus Kite Shield],,,85,100,,,,135,69,50
+1413400,Crystal Ring Shield [Gargoyle's Shield],,,85,100,,,,135,69,50
+1413500,Crystal Ring Shield [Eagle Shield],,,85,100,,,,135,69,50
+1413600,Crystal Ring Shield [Tower Shield],,,85,100,,,,135,69,50
+1413700,Crystal Ring Shield [Giant Shield],,,85,100,,,,135,69,50
+1413800,Crystal Ring Shield [Bonewheel Shield],,,85,100,,,,135,69,50
+1413900,Crystal Ring Shield [Effigy Shield],,,85,100,,,,135,69,50
+1414000,Crystal Ring Shield [Sanctus],,,85,100,,,,135,69,50
+1414100,Crystal Ring Shield [Bloodshield],,,85,100,,,,135,69,50
+1414200,Crystal Ring Shield [Black Iron Greatshield],,,85,100,,,,135,69,50
+1414300,Crystal Ring Shield,,,85,100,,,,135,69,50
+1414400,Crystal Ring Shield,,,85,100,,,,135,69,50
+1414500,Crystal Ring Shield,,,85,100,,,,135,69,50
+1414600,Crystal Ring Shield,,,85,100,,,,135,69,50
+1404800,Target Shield [Fire],,,,90,,,,,52,50
+1404600,Target Shield [Divine],,,,90,,,,,52,50
+1404400,Target Shield [Magic],,,,90,,,,,52,50
+1404200,Target Shield [Lightning],,,,90,,,,,52,50
+1404100,Target Shield [Crystal],,,,90,,,,,52,50
+1404000,Target Shield,,,,90,,,,,52,50
+1402800,Large Leather Shield [Fire],,,,100,,,,,,
+1402600,Large Leather Shield [Divine],,,,100,,,,,,
+1402400,Large Leather Shield [Magic],,,,100,,,,,,
+1402200,Large Leather Shield [Lightning],,,,100,,,,,,
+1402100,Large Leather Shield [Crystal],,,,100,,,,,,
+1402000,Large Leather Shield,,,,100,,,,,,
+1451000,Knight Shield,,,,,65,65,65,,60,
+1451100,Knight Shield [Crystal],,,,,65,65,65,,60,
+1451200,Knight Shield [Lightning],,,,,65,65,65,,60,
+1451400,Knight Shield [Magic],,,,,65,65,65,,60,
+1451600,Knight Shield [Divine],,,,,65,65,65,,60,
+1451800,Knight Shield [Fire],,,,,65,65,65,,60,
+1470000,Spiked Shield,,,,100,,,,,68,50
+1470100,Spiked Shield [Crystal],,,,100,,,,,68,50
+1470200,Spiked Shield [Lightning],,,,100,,,,,68,50
+1470400,Spiked Shield [Magic],,,,100,,,,,68,50
+1470600,Spiked Shield [Divine],,,,100,,,,,68,50
+1470800,Spiked Shield [Fire],,,,100,,,,,68,50
+1471000,Crystal Shield,,,,,,,,,,65
+1472000,Sunlight Shield,,,,,,,,,,65
+1472100,Sunlight Shield [Crystal],,,,,,,,,,65
+1472200,Sunlight Shield [Lightning],,,,,,,,,,65
+1472400,Sunlight Shield [Magic],,,,,,,,,,65
+1472600,Sunlight Shield [Divine],,,,,,,,,,65
+1472800,Sunlight Shield [Fire],,,,,,,,,,65
+1475000,Pierce Shield,,,,100,,,,,68,50
+1475100,Pierce Shield [Crystal],,,,100,,,,,68,50
+1475200,Pierce Shield [Lightning],,,,100,,,,,68,50
+1475400,Pierce Shield [Magic],,,,100,,,,,68,50
+1475600,Pierce Shield [Divine],,,,100,,,,,68,50
+1475800,Pierce Shield [Fire],,,,100,,,,,68,50
+1477000,Caduceus Kite Shield,,,,,70,50,30,,,
+1477100,Caduceus Kite Shield [Crystal],,,,,70,50,30,,,
+1477200,Caduceus Kite Shield [Lightning],,,,,70,50,30,,,
+1477400,Caduceus Kite Shield [Magic],,,,,70,50,30,,,
+1477600,Caduceus Kite Shield [Divine],,,,,70,50,30,,,
+1477800,Caduceus Kite Shield [Fire],,,,,70,50,30,,,
+1478000,Gargoyle's Shield,,,,99,,,,,58,65
+1478100,Gargoyle's Shield [Crystal],,,,99,,,,,58,65
+1478400,Gargoyle's Shield [Magic],,,,99,,,,,58,65
+1478200,Gargoyle's Shield [Lightning],,,,99,,,,,58,65
+1478600,Gargoyle's Shield [Divine],,,,99,,,,,58,65
+1478800,Gargoyle's Shield [Fire],,,,99,,,,,58,65
+1500000,Eagle Shield,,,,98,,,,,,
+1500100,Eagle Shield [Crystal],,,,98,,,,,,
+1500200,Eagle Shield [Lightning],,,,98,,,,,,
+1500400,Eagle Shield [Magic],,,,98,,,,,,
+1500600,Eagle Shield [Divine],,,,98,,,,,,
+1500800,Eagle Shield [Fire],,,,98,,,,,,
+1502000,Giant Shield,,,,,,,,,73,
+1502100,Giant Shield [Crystal],,,,,,,,,73,
+1502200,Giant Shield [Lightning],,,,,,,,,73,
+1502400,Giant Shield [Magic],,,,,,,,,73,
+1502600,Giant Shield [Divine],,,,,,,,,73,
+1502800,Giant Shield [Fire],,,,,,,,,73,
+1506000,Bonewheel Shield,,,,95,,,,,78,
+1506100,Bonewheel Shield [Crystal],,,,95,,,,,78,
+1506200,Bonewheel Shield [Lightning],,,,95,,,,,78,
+1506400,Bonewheel Shield [Magic],,,,95,,,,,78,
+1506600,Bonewheel Shield [Divine],,,,95,,,,,78,
+1506800,Bonewheel Shield [Fire],,,,95,,,,,78,
+9000000,Effigy Shield,,,,100,,,,,58,50
+9000100,Effigy Shield [Crystal],,,,100,,,,,58,50
+9000200,Effigy Shield [Lightning],,,,100,,,,,58,50
+9000400,Effigy Shield [Magic],,,,100,,,,,58,50
+9000600,Effigy Shield [Divine],,,,100,,,,,58,50
+9000800,Effigy Shield [Fire],,,,100,,,,,58,50
+9001000,Sanctus,,,,98,,,,,59,65
+9001100,Sanctus [Crystal],,,,98,,,,,59,65
+9001200,Sanctus [Lightning],,,,98,,,,,59,65
+9001400,Sanctus [Magic],,,,98,,,,,59,65
+9001600,Sanctus [Divine],,,,98,,,,,59,65
+9001800,Sanctus [Fire],,,,98,,,,,59,65
+9002000,Bloodshield,,,,,50,,,,62,
+9002100,Bloodshield [Crystal],,,,,50,,,,62,
+9002200,Bloodshield [Lightning],,,,,50,,,,62,
+9002400,Bloodshield [Magic],,,,,50,,,,62,
+9002600,Bloodshield [Divine],,,,,50,,,,62,
+9002800,Bloodshield [Fire],,,,,50,,,,62,
+9014000,Cleansing Greatshield,,,,95,,,,,,

@@ -1,0 +1,12 @@
+{
+  "name": "No Killing Useful NPCs for Gear",
+  "author": "Vortyne",
+  "description": "Andre, Vamos, the Giant Blacksmith, Gough, Chester and Shiva sell their gear, so you don't have to kill them for it.",
+  "requireAll": true,
+  "patches": [
+    {
+      "file": "ShopLineupParam.csv",
+      "param": "ShopLineupParam"
+    }
+  ]
+}

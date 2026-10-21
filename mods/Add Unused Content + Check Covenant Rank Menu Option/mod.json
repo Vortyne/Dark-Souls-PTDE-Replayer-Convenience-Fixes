@@ -1,0 +1,36 @@
+{
+  "name": "Add Unused Content + Check Covenant Rank Menu Option",
+  "author": "Vortyne",
+  "description": "Adds unused armor, weapons and rings to shops and the world, plus a menu option at covenant NPCs to check your covenant rank.",
+  "installFiles": "game files",
+  "games": [
+    "ptde"
+  ],
+  "requireAll": true,
+  "patches": [
+    {
+      "file": "EquipParamAccessory.csv",
+      "param": "EquipParamAccessory"
+    },
+    {
+      "file": "EquipParamProtector.csv",
+      "param": "EquipParamProtector"
+    },
+    {
+      "file": "EquipParamWeapon.csv",
+      "param": "EquipParamWeapon"
+    },
+    {
+      "file": "ItemLotParam.csv",
+      "param": "ItemLotParam"
+    },
+    {
+      "file": "ShopLineupParam.csv",
+      "param": "ShopLineupParam"
+    },
+    {
+      "file": "SpEffectParam.csv",
+      "param": "SpEffectParam"
+    }
+  ]
+}

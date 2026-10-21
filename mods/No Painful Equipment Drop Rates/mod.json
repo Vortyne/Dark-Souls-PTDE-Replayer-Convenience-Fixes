@@ -1,0 +1,12 @@
+{
+  "name": "No Painful Equipment Drop Rates",
+  "author": "Vortyne",
+  "description": "Raises equipment drop rates below 5% to at least 5% (some higher), for gear you can't get any other easy way.",
+  "requireAll": true,
+  "patches": [
+    {
+      "file": "ItemLotParam.csv",
+      "param": "ItemLotParam"
+    }
+  ]
+}
