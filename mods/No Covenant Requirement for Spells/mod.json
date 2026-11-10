@@ -1,0 +1,12 @@
+{
+  "name": "No Covenant Requirement for Spells",
+  "author": "Vortyne",
+  "description": "Removes the covenant requirement from 4 spells by making them castable in every covenant (and with no covenant).",
+  "requireAll": true,
+  "patches": [
+    {
+      "file": "Magic.csv",
+      "param": "Magic"
+    }
+  ]
+}

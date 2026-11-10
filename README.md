@@ -307,6 +307,21 @@ Some weapons just have many issues or are greatly outclassed, especially some th
 </details>
 
 <details>
+<summary><b>No Covenant Requirement for Spells</b></summary>
+
+Removes the covenant requirement from 4 spells by setting them to be castable in every covenant, so you can keep using them after joining a different covenant, or with no covenant at all.
+
+| Spell | Normally only castable in |
+|---|---|
+| Soothing Sunlight | Princess's Guard |
+| Bountiful Sunlight | Princess's Guard |
+| Sunlight Spear | Warrior of Sunlight |
+| Darkmoon Blade | Blade of the Darkmoon |
+
+<sub>Source: <a href="mods/No%20Covenant%20Requirement%20for%20Spells/CHANGES.md">mods/No%20Covenant%20Requirement%20for%20Spells/CHANGES.md</a></sub>
+</details>
+
+<details>
 <summary><b>No Killing Useful NPCs for Gear</b></summary>
 
 | NPC | Now sells |

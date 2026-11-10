@@ -91,4 +91,5 @@ elsewhere in the file are kept, and the patcher shows them which of your values 
 ## Testing
 
 Run `ParamPatcher.exe --list` in a terminal to see every mod, its status and any error in your
-`mod.json` or CSVs (`ParamPatcher.exe --help` for more options).
+`mod.json` or CSVs. Add `--changes` to also list every value each CSV changes, with the original
+value, the one in your file and the mod's (`ParamPatcher.exe --help` for more options).

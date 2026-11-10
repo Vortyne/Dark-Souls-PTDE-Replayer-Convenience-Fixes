@@ -26,7 +26,8 @@ namespace ParamPatcher
   --output PATH         where to write the patched file
   --replace             back up the game's file and replace it with the patched one
   --keep-own-edits      don't overwrite values you already changed to something else
-  -v, --verbose         list conflicting values";
+  -v, --verbose         list conflicting values
+  --changes             list every value each CSV changes (original, your file, mod)";
 
         [STAThread]
         static int Main(string[] args)
@@ -47,7 +48,7 @@ namespace ParamPatcher
         static int RunCli(string[] args)
         {
             string game = null, mods = null, output = null;
-            bool list = false, all = false, replace = false, keepOwn = false, verbose = false, remastered = false;
+            bool list = false, all = false, replace = false, keepOwn = false, verbose = false, remastered = false, changes = false;
             var apply = new List<string>();
             for (int i = 0; i < args.Length; i++)
             {
@@ -64,6 +65,7 @@ namespace ParamPatcher
                     case "--replace": replace = true; break;
                     case "--keep-own-edits": keepOwn = true; break;
                     case "-v": case "--verbose": verbose = true; break;
+                    case "--changes": changes = true; break;
                     case "--apply":
                         while (i + 1 < args.Length && !args[i + 1].StartsWith("--")) apply.Add(args[++i]);
                         break;
@@ -83,7 +85,9 @@ namespace ParamPatcher
             {
                 var r = session.Reports[i];
                 Console.WriteLine($"{i + 1,3}. [{StatusText.Of(r.Status)}] {r.Csv.RelPath}\n       {r.Summary()}");
-                if (verbose)
+                if (changes)
+                    foreach (var c in r.Cells) Console.WriteLine("         " + c.Describe());
+                else if (verbose)
                     foreach (var c in r.Conflicts) Console.WriteLine("         conflict: " + c.Describe());
             }
             if (list || (!all && apply.Count == 0)) return 0;
